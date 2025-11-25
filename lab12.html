@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link href="D:\asmII2\lab12style.css" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carousel page</title>
+  </head>
+  <body>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Carousel</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarcollapse"
+              aria-controls="navbarcollapse"
+              aria-expanded="false"
+              aria-label="Toogle navigation"
+            >
+              <span class="navbar-toogler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">link</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                  ></a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="search"
+                  aria-label="search"
+                />
+                <button class="btn btn-outline-success" type="submit"></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-img1">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+                eaque quibusdam ducimus nemo hic et accusantium culpa sequi aut
+                esse impedit, magnam deleniti quod veniam soluta iste dolor ea.
+                Cupiditate!
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-img3">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>one more for good measure</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                debitis, repudiandae quasi dignissimos dolor ad numquam sint
+                tenetur hic ex, accusantium non veniam officiis at quae? Officia
+                atque optio minus?
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#">web browser</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#mycarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-label="slide 1"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mycarousel"
+            data-bs-slide-to="1"
+            aria-label="slide 2"
+            class=""
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mycarousel"
+            data-bs-slide-to="2"
+            aria-label="slide 3"
+            class=""
+          ></button>
+        </div>
+      </div>
+      <div class="carousel-inner">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mycarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visual-hidden">previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mycarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visual-hidden">next</span>
+        </button>
+      </div>
+      <div class="carousel-inner">
+        <div class="bg-img1"></div>
+        <div class="bg-img2"></div>
+        <div class="bg-img3"></div>
+      </div>
+    </div>
+  </body>
+</html>
